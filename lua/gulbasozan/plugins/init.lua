@@ -8,5 +8,6 @@ local spec = function(item)
 end
 
 spec("treesitter")
+spec("nordic")
 
 return M
