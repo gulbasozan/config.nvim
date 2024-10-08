@@ -12,5 +12,8 @@ spec("nordic")
 spec("devicons")
 spec("telescope")
 spec("which-key")
+spec("mason")
+spec("lspconfig")
+spec("null-ls")
 
 return M
