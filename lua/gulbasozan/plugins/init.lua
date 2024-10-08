@@ -7,6 +7,7 @@ local spec = function(item)
     end
 end
 
+spec("cmp")
 spec("treesitter")
 spec("nordic")
 spec("devicons")
