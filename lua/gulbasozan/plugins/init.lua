@@ -9,5 +9,8 @@ end
 
 spec("treesitter")
 spec("nordic")
+spec("devicons")
+spec("telescope")
+spec("which-key")
 
 return M
