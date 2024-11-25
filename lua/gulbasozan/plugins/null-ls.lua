@@ -13,7 +13,6 @@ function M.config()
     null_ls.setup({
         sources = {
             null_ls.builtins.formatting.prettierd,
-            -- Add other formatter/linters as needed
         },
     })
 
