@@ -7,10 +7,10 @@
 function M.config(_, opts)
     local wk = require("which-key")
     local mappings = {
-        pf = {"<CMD>Telescope find_files<CR>", "Find Files" },
+        { "<leader>pf", "<CMD>Telescope find_files<CR>", desc = "Find Files" },
     }
 
-    wk.register(mappings, {prefix="<leader>"})
+    wk.add(mappings)
 
     local telescope = require("telescope")
 
