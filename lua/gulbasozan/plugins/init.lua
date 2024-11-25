@@ -16,5 +16,7 @@ spec("which-key")
 spec("mason")
 spec("lspconfig")
 spec("null-ls")
+spec("mini-icons")
+spec("fugitive")
 
 return M
